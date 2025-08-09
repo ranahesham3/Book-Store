@@ -1,0 +1,222 @@
+[
+    {
+        "title": "An Introduction to C & GUI Programming, 2nd Edition",
+        "isbn13": "9781912047451",
+        "price": 14.92,
+        "image": "https://itbook.store/img/books/9781912047451.png",
+        "url": "https://itbook.store/books/9781912047451",
+        "authors": "Simon Long",
+        "pages": 156,
+        "year": 2022,
+        "desc": "Freshly updated for GTK3, the 2nd edition of An Introduction to C &amp; GUI Programming will teach you all you need to know to write simple programs in C and start creating GUIs, even if you&#039;re an absolute beginner.The first half of the book is an introduction to C, and covers the basics of wri..."
+    },
+    {
+        "title": "Snowflake: The Definitive Guide",
+        "isbn13": "9781098103828",
+        "price": 58.9,
+        "image": "https://itbook.store/img/books/9781098103828.png",
+        "url": "https://itbook.store/books/9781098103828",
+        "authors": "Joyce Kay Avila",
+        "pages": 465,
+        "year": 2022,
+        "desc": "Snowflake&#039;s ability to eliminate data silos and run workloads from a single platform creates opportunities to democratize data analytics, allowing users at all levels within an organization to make data-driven decisions. Whether you&#039;re an IT professional working in data warehousing or data..."
+    },
+    {
+        "title": "Python for Data Analysis, 3rd Edition",
+        "isbn13": "9781098104030",
+        "price": 36.18,
+        "image": "https://itbook.store/img/books/9781098104030.png",
+        "url": "https://itbook.store/books/9781098104030",
+        "authors": "Wes McKinney",
+        "pages": 579,
+        "year": 2022,
+        "desc": "Get the definitive handbook for manipulating, processing, cleaning, and crunching datasets in Python. Updated for Python 3.10 and pandas 1.4, the third edition of this hands-on guide is packed with practical case studies that show you how to solve a broad set of data analysis problems effectively. Y..."
+    },
+    {
+        "title": "Reliable Machine Learning",
+        "isbn13": "9781098106225",
+        "price": 43.99,
+        "image": "https://itbook.store/img/books/9781098106225.png",
+        "url": "https://itbook.store/books/9781098106225",
+        "authors": "Cathy Chen, Niall Richard Murphy, Kranti Parisa, D. Sculley, Todd Underwood",
+        "pages": 408,
+        "year": 2022,
+        "desc": "Whether you&#039;re part of a small startup or a multinational corporation, this practical book shows data scientists, software and site reliability engineers, product managers, and business owners how to run and establish ML reliably, effectively, and accountably within your organization. You&#039;..."
+    },
+    {
+        "title": "Data Visualization with Python and JavaScript, 2nd Edition",
+        "isbn13": "9781098111878",
+        "price": 60.99,
+        "image": "https://itbook.store/img/books/9781098111878.png",
+        "url": "https://itbook.store/books/9781098111878",
+        "authors": "Kyran Dale",
+        "pages": 566,
+        "year": 2022,
+        "desc": "How do you turn raw, unprocessed, or malformed data into dynamic, interactive web visualizations? In this practical book, author Kyran Dale shows data scientists and analysts-as well as Python and JavaScript developers-how to create the ideal toolchain for the job. By providing engaging examples and..."
+    },
+    {
+        "title": "Learning Microsoft Power BI",
+        "isbn13": "9781098112844",
+        "price": 40.46,
+        "image": "https://itbook.store/img/books/9781098112844.png",
+        "url": "https://itbook.store/books/9781098112844",
+        "authors": "Jeremey Arnold",
+        "pages": 307,
+        "year": 2022,
+        "desc": "Microsoft Power BI is a data analytics and visualization tool powerful enough for the most demanding data scientists, but accessible enough for everyday use for anyone who needs to get more from data. The market has many books designed to train and equip professional data analysts to use Power BI, b..."
+    },
+    {
+        "title": "C++ Software Design",
+        "isbn13": "9781098113162",
+        "price": 47.03,
+        "image": "https://itbook.store/img/books/9781098113162.png",
+        "url": "https://itbook.store/books/9781098113162",
+        "authors": "Klaus Iglberger",
+        "pages": 435,
+        "year": 2022,
+        "desc": "Good software design is essential for the success of your project, but designing software is hard to do. You need to have a deep understanding of the consequences of design decisions and a good overview of available design alternatives. With this book, experienced C++ developers will get a thorough,..."
+    },
+    {
+        "title": "Terraform: Up and Running, 3rd Edition",
+        "isbn13": "9781098116743",
+        "price": 41.99,
+        "image": "https://itbook.store/img/books/9781098116743.png",
+        "url": "https://itbook.store/books/9781098116743",
+        "authors": "Yevgeniy Brikman",
+        "pages": 459,
+        "year": 2022,
+        "desc": "Terraform has become a key player in the DevOps world for defining, launching, and managing infrastructure as code (IaC) across a variety of cloud and virtualization platforms, including AWS, Google Cloud, Azure, and more. This hands-on third edition, expanded and thoroughly updated for version 1.0 ..."
+    },
+    {
+        "title": "Flutter and Dart Cookbook",
+        "isbn13": "9781098119515",
+        "price": 50.52,
+        "image": "https://itbook.store/img/books/9781098119515.png",
+        "url": "https://itbook.store/books/9781098119515",
+        "authors": "Rich Rose",
+        "pages": 200,
+        "year": 2022,
+        "desc": "Learn the essentials of working with Flutter and Dart to build full stack applications that meet the needs of a cloud-driven world. Together, the Flutter open source UI software development kit and the Dart programming language for client development provide a unified solution to building applicatio..."
+    },
+    {
+        "title": "Python Data Science Handbook, 2nd Edition",
+        "isbn13": "9781098121228",
+        "price": 56.16,
+        "image": "https://itbook.store/img/books/9781098121228.png",
+        "url": "https://itbook.store/books/9781098121228",
+        "authors": "Jake VanderPlas",
+        "pages": 550,
+        "year": 2022,
+        "desc": "Python is a first-class tool for many researchers, primarily because of its libraries for storing, manipulating, and gaining insight from data. Several resources exist for individual pieces of this data science stack, but only with the new edition of Python Data Science Handbook do you get them all ..."
+    },
+    {
+        "title": "Raspberry Pi Cookbook, 4th Edition",
+        "isbn13": "9781098130923",
+        "price": 14.99,
+        "image": "https://itbook.store/img/books/9781098130923.png",
+        "url": "https://itbook.store/books/9781098130923",
+        "authors": "Simon Monk",
+        "pages": 608,
+        "year": 2022,
+        "desc": "If you&#039;ve started to work with Raspberry Pi, you know that Raspberry Pi&#039;s capabilities are continually expanding. The fourth edition of this popular cookbook provides more than 200 hands-on recipes (complete with code) that show you how to run this tiny low-cost computer with Linux, progra..."
+    },
+    {
+        "title": "Azure Maps Using Blazor Succinctly",
+        "isbn13": "9781642002263",
+        "price": 10.0,
+        "image": "https://itbook.store/img/books/9781642002263.png",
+        "url": "https://itbook.store/books/9781642002263",
+        "authors": "Michael Washington",
+        "pages": 92,
+        "year": 2022,
+        "desc": "Microsoft Azure Maps is part of Microsoft Azure Cloud Services and provides a wide range of powerful geospatial capabilities and a rich set of REST APIs. It has SDKs for both web and mobile applications. In Azure Maps Using Blazor Succinctly, learn how you can create sophisticated applications with ..."
+    },
+    {
+        "title": "Full Stack Quarkus and React",
+        "isbn13": "9781800562738",
+        "price": 39.99,
+        "image": "https://itbook.store/img/books/9781800562738.png",
+        "url": "https://itbook.store/books/9781800562738",
+        "authors": "Marc Nuri San Felix",
+        "pages": 324,
+        "year": 2022,
+        "desc": "React has established itself as one of the most popular and widely adopted frameworks thanks to its simple yet scalable app development abilities. Quarkus comes across as a fantastic alternative for backend development by boosting developer productivity with features such as pre-built integrations, ..."
+    },
+    {
+        "title": "Mathematics for Game Programming and Computer Graphics",
+        "isbn13": "9781801077330",
+        "price": 49.99,
+        "image": "https://itbook.store/img/books/9781801077330.png",
+        "url": "https://itbook.store/books/9781801077330",
+        "authors": "Penny de Byl",
+        "pages": 444,
+        "year": 2022,
+        "desc": "Mathematics is an essential skill when it comes to graphics and game development, particularly if you want to understand the generation of real-time computer graphics and the manipulation of objects and environments in a detailed way. Python, together with Pygame and PyOpenGL, provides you with the ..."
+    },
+    {
+        "title": "Architecting and Building High-Speed SoCs",
+        "isbn13": "9781801810999",
+        "price": 32.99,
+        "image": "https://itbook.store/img/books/9781801810999.png",
+        "url": "https://itbook.store/books/9781801810999",
+        "authors": "Mounir Maaref",
+        "pages": 426,
+        "year": 2022,
+        "desc": "Modern and complex SoCs can adapt to many demanding system requirements by combining the processing power of ARM processors and the feature-rich Xilinx FPGAs. You&#039;ll need to understand many protocols, use a variety of internal and external interfaces, pinpoint the bottlenecks, and define the ar..."
+    },
+    {
+        "title": "Web Development with Julia and Genie",
+        "isbn13": "9781801811132",
+        "price": 39.99,
+        "image": "https://itbook.store/img/books/9781801811132.png",
+        "url": "https://itbook.store/books/9781801811132",
+        "authors": "Ivo Balbaert, Adrian Salceanu",
+        "pages": 254,
+        "year": 2022,
+        "desc": "Julia&#039;s high-performance and scalability characteristics and its extensive number of packages for visualizing data make it an excellent fit for developing web apps, web services, and web dashboards. The two parts of this book provide complete coverage to build your skills in web development.Fir..."
+    },
+    {
+        "title": "Java Memory Management",
+        "isbn13": "9781801812856",
+        "price": 34.99,
+        "image": "https://itbook.store/img/books/9781801812856.png",
+        "url": "https://itbook.store/books/9781801812856",
+        "authors": "Maaike van Putten, Sean Kennedy",
+        "pages": 146,
+        "year": 2022,
+        "desc": "Understanding how Java organizes memory is important for every Java professional, but this particular topic is a common knowledge gap for many software professionals. Having in-depth knowledge of memory functioning and management is incredibly useful in writing and analyzing code, as well as debuggi..."
+    },
+    {
+        "title": "Test-Driven Development with C++",
+        "isbn13": "9781803242002",
+        "price": 44.99,
+        "image": "https://itbook.store/img/books/9781803242002.png",
+        "url": "https://itbook.store/books/9781803242002",
+        "authors": "Abdul Wahid Tanner",
+        "pages": 430,
+        "year": 2022,
+        "desc": "Modern, standard C++ is all that is needed to create a small and practical testing framework that will improve the design of any project. This allows you to think about how the code will be used, which is the first step in designing intuitive interfaces. TDD is a modern balanced software development..."
+    },
+    {
+        "title": "Software Test Design",
+        "isbn13": "9781804612569",
+        "price": 44.99,
+        "image": "https://itbook.store/img/books/9781804612569.png",
+        "url": "https://itbook.store/books/9781804612569",
+        "authors": "Simon Amey",
+        "pages": 426,
+        "year": 2022,
+        "desc": "Software Test Design details best practices for testing software applications and writing comprehensive test plans. Written by an expert with over twenty years of experience in the high-tech industry, this guide will provide you with training and practical examples to improve your testing skills.Tho..."
+    },
+    {
+        "title": "Microservices with Go",
+        "isbn13": "9781804617007",
+        "price": 29.99,
+        "image": "https://itbook.store/img/books/9781804617007.png",
+        "url": "https://itbook.store/books/9781804617007",
+        "authors": "Alexander Shuiskov",
+        "pages": 328,
+        "year": 2022,
+        "desc": "This book covers the key benefits and common issues of microservices, helping you understand the problems microservice architecture helps to solve, the issues it usually introduces, and the ways to tackle them.You&#039;ll start by learning about the importance of using the right principles and stand..."
+    }
+]
