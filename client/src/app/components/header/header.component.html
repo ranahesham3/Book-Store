@@ -1,0 +1,67 @@
+<nav
+  class="navbar navbar-expand-lg navbar-light justify-content-between"
+  style="background-color: #6fb8ec"
+>
+  <a class="navbar-brand mb-0 h1">
+    <img
+      src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYi0wNS1hXzIucG5n.png"
+      alt=""
+      style="height: 40px; width: 40px"
+    />
+    Book worm
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      @if(this.url==='viewer'){
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/viewer/home"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          routerLinkActive="active"
+          routerLink="/viewer/register"
+          >Register</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/viewer/login"
+          >Login</a
+        >
+      </li>
+      }@else{
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/user/home"
+          >Welcome User</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/user/cart"
+          >Cart</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </li>
+      }
+    </ul>
+  </div>
+</nav>
+
+<main style="min-height: 560px">
+  <router-outlet></router-outlet>
+</main>

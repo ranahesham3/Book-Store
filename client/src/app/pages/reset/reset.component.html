@@ -1,0 +1,64 @@
+<div
+  style="
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  "
+>
+  <h3 class="mb-4 text-center">Reset your password</h3>
+  <form [formGroup]="resetForm">
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        formControlName="password"
+      />
+      @if
+      (this.resetForm.controls['password'].errors&&this.resetForm.controls['password'].touched)
+      {
+      <small class="text-danger"
+        >Please provide a strong and valid password.</small
+      ><br />
+      }
+    </div>
+
+    <div class="form-group">
+      <label for="password2">Confirm Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password2"
+        formControlName="confirmPassword"
+      />
+      @if
+      (this.resetForm.controls['confirmPassword'].errors&&this.resetForm.controls['confirmPassword'].touched)
+      {
+      <small class="text-danger">Please confirm your password.</small>
+      }
+      <small
+        class="text-danger"
+        *ngIf="
+          resetForm.hasError('confirmPasswordValidator') &&
+          resetForm.get('confirmPassword')?.touched
+        "
+      >
+        Passwords do not match.
+      </small>
+    </div>
+
+    <button
+      [disabled]="resetForm.invalid"
+      [class.disabled]="resetForm.invalid"
+      class="btn btn-primary w-100"
+      type="submit"
+      (click)="reset()"
+    >
+      Reset Password
+    </button>
+  </form>
+</div>

@@ -1,0 +1,60 @@
+<div
+  style="
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  "
+>
+  <h3 class="mb-4 text-center">Login</h3>
+  <form [formGroup]="loginForm">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="Email"
+        formControlName="email"
+      />
+      @if
+      (this.loginForm.controls['email'].errors&&this.loginForm.controls['email'].touched)
+      {
+      <small class="text-danger">Please provide a valid Email.</small>
+      }
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        formControlName="password"
+      />
+      @if
+      (this.loginForm.controls['password'].errors&&this.loginForm.controls['password'].touched)
+      {
+      <small class="text-danger">Please provide a valid password.</small>
+      }
+    </div>
+
+    <button
+      [disabled]="loginForm.invalid"
+      [class.disabled]="loginForm.invalid"
+      class="btn btn-primary w-100"
+      type="submit"
+      (click)="login()"
+    >
+      Login
+    </button>
+  </form>
+  <div class="text-center" style="padding: 20px">
+    <a routerLink="/viewer/forget-password">Forgotten password?</a>
+  </div>
+  <button class="btn btn-success w-100" type="submit" (click)="register()">
+    Create new account
+  </button>
+</div>
