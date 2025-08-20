@@ -1,0 +1,15 @@
+.text-justify {
+  text-align: justify;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+img.shadow-sm {
+  transition: transform 0.2s ease-in-out;
+}
+
+img.shadow-sm:hover {
+  transform: scale(1.03);
+}

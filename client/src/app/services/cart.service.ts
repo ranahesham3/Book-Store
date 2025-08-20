@@ -26,4 +26,10 @@ export class CartService {
       withCredentials: true,
     });
   }
+
+  updateBook(body: any): Observable<any> {
+    return this.http.patch(`${apiUrls.cartServiceApi}/update`, body, {
+      withCredentials: true,
+    });
+  }
 }

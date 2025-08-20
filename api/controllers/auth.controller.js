@@ -93,7 +93,7 @@ exports.sendEmail = async (req, res, next) => {
 
         res.status(200).json({
             status: 'success',
-            message: 'Token sent to email',
+            message: 'Check your email',
         });
     } catch (err) {
         user.passwordResetExpires = undefined;

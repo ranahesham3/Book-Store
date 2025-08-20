@@ -6,6 +6,7 @@
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    background-color: white;
   "
 >
   <h3 class="mb-4 text-center">Reset your password</h3>
@@ -17,13 +18,14 @@
         class="form-control"
         id="password"
         formControlName="password"
+        placeholder="********"
       />
       @if
       (this.resetForm.controls['password'].errors&&this.resetForm.controls['password'].touched)
       {
       <small class="text-danger"
-        >Please provide a strong and valid password.</small
-      ><br />
+        >Please provide a valid password (minimum is 8).</small
+      >
       }
     </div>
 
@@ -34,6 +36,7 @@
         class="form-control"
         id="password2"
         formControlName="confirmPassword"
+        placeholder="********"
       />
       @if
       (this.resetForm.controls['confirmPassword'].errors&&this.resetForm.controls['confirmPassword'].touched)

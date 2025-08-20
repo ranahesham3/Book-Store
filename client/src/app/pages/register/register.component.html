@@ -6,6 +6,7 @@
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    background-color: white;
   "
 >
   <h3 class="mb-4 text-center">Register</h3>
@@ -65,12 +66,13 @@
         class="form-control"
         id="password"
         formControlName="password"
+        placeholder="********"
       />
       @if
       (this.registerForm.controls['password'].errors&&this.registerForm.controls['password'].touched)
       {
       <small class="text-danger"
-        >Please provide a valid password(minimum is 8).</small
+        >Please provide a valid password (minimum is 8).</small
       >
       }
     </div>
@@ -82,6 +84,7 @@
         class="form-control"
         id="password2"
         formControlName="confirmPassword"
+        placeholder="********"
       />
       @if
       (this.registerForm.controls['confirmPassword'].errors&&this.registerForm.controls['confirmPassword'].touched)
@@ -110,7 +113,7 @@
     </button>
   </form>
   <div class="text-center" style="padding: 20px">
-    <span><b>have an account? </b></span>
+    <span><b>Already have an account? </b></span>
     <a routerLink="/viewer/login">Login </a>
   </div>
 </div>

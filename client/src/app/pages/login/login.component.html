@@ -6,6 +6,7 @@
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    background-color: white;
   "
 >
   <h3 class="mb-4 text-center">Login</h3>
@@ -33,6 +34,7 @@
         class="form-control"
         id="password"
         formControlName="password"
+        placeholder="********"
       />
       @if
       (this.loginForm.controls['password'].errors&&this.loginForm.controls['password'].touched)
@@ -44,17 +46,24 @@
     <button
       [disabled]="loginForm.invalid"
       [class.disabled]="loginForm.invalid"
-      class="btn btn-primary w-100"
+      class="btn btn-primary w-100 mb-3"
+      style="background-color: #b5651d"
       type="submit"
       (click)="login()"
     >
       Login
     </button>
   </form>
-  <div class="text-center" style="padding: 20px">
-    <a routerLink="/viewer/forget-password">Forgotten password?</a>
-  </div>
-  <button class="btn btn-success w-100" type="submit" (click)="register()">
+
+  <button
+    class="btn btn-success w-100"
+    style="background-color: #4caf50"
+    type="submit"
+    (click)="register()"
+  >
     Create new account
   </button>
+  <div class="text-center" style="padding: 7px">
+    <a routerLink="/viewer/forget-password">Forgotten password?</a>
+  </div>
 </div>

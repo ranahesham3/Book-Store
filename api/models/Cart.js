@@ -9,9 +9,19 @@ const cartSchema = mongoose.Schema(
         },
         book: [
             {
-                type: mongoose.Schema.ObjectId,
-                ref: 'Book',
-                required: [true, ''],
+                details: {
+                    type: mongoose.Schema.ObjectId,
+                    ref: 'Book',
+                    required: [true, ''],
+                },
+                price: {
+                    type: Number,
+                    required: true,
+                },
+                count: {
+                    type: Number,
+                    default: 1,
+                },
             },
         ],
     },
@@ -23,7 +33,7 @@ const cartSchema = mongoose.Schema(
 
 cartSchema.pre(/^find/, function (next) {
     //this query won't happen that often
-    this.populate('user').populate('book');
+    this.populate('book.details');
     next();
 });
 

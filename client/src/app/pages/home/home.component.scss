@@ -1,7 +1,26 @@
-.card {
-  height: 300px;
+/* Gradient background for top section */
+.bg-gradient {
+  background: linear-gradient(135deg, #f9f9f9, #f1f1f1);
 }
-.card-img-top {
-  height: 150px;
-  object-fit: cover;
+
+/* Card hover effect */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Slightly raised buttons */
+.btn-elevate {
+  transition: all 0.2s ease;
+}
+.btn-elevate:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.small-heading {
+  font-size: 1.1rem; /* 20px if base is 16px */
+  font-weight: 600; /* keep it looking like a heading */
 }

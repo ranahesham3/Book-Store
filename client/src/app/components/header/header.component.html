@@ -1,67 +1,90 @@
 <nav
-  class="navbar navbar-expand-lg navbar-light justify-content-between"
-  style="background-color: #6fb8ec"
+  class="navbar navbar-expand-lg navbar-light shadow-sm"
+  style="background-color: #5b3921; padding: 0.5rem 1rem"
 >
-  <a class="navbar-brand mb-0 h1">
+  <a
+    class="navbar-brand d-flex align-items-center font-weight-bold text-white"
+    routerLink="/"
+  >
     <img
       src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMzMtYi0wNS1hXzIucG5n.png"
-      alt=""
-      style="height: 40px; width: 40px"
+      alt="Book Worm Logo"
+      style="height: 40px; width: 40px; margin-right: 8px"
     />
-    Book worm
+    Book Worm
   </a>
+
   <button
     class="navbar-toggler"
     type="button"
     data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
     aria-expanded="false"
     aria-label="Toggle navigation"
   >
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       @if(this.url==='viewer'){
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/viewer/home"
-          >Home</a
+        <a
+          class="nav-link text-white fw-semibold px-3"
+          routerLinkActive="active"
+          routerLink="/viewer/home"
         >
+          <i class="fa-solid fa-house me-1"></i> Home
+        </a>
       </li>
       <li class="nav-item">
         <a
-          class="nav-link"
+          class="nav-link text-white fw-semibold px-3"
           routerLinkActive="active"
           routerLink="/viewer/register"
-          >Register</a
         >
+          Register
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/viewer/login"
-          >Login</a
+        <a
+          class="nav-link text-white fw-semibold px-3"
+          routerLinkActive="active"
+          routerLink="/viewer/login"
         >
+          Login
+        </a>
       </li>
-      }@else{
+      } @else {
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/user/home"
-          >Welcome User</a
+        <a
+          class="nav-link text-white fw-semibold px-3"
+          routerLinkActive="active"
+          routerLink="/user/home"
         >
+          <i class="fa-solid fa-house-user me-1"></i> Home
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/user/cart"
-          >Cart</a
+        <a
+          class="nav-link text-white fw-semibold px-3"
+          routerLinkActive="active"
+          routerLink="/user/cart"
         >
+          <i class="fa-solid fa-cart-shopping me-1"></i> Cart
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" (click)="logout()">Logout</a>
+        <a class="nav-link text-white fw-semibold px-3" (click)="logout()"
+          >Logout</a
+        >
       </li>
       }
     </ul>
   </div>
 </nav>
 
-<main style="min-height: 560px">
+<main style="min-height: 560px; background-color: #f2e8cf">
   <router-outlet></router-outlet>
 </main>
